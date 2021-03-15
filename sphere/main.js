@@ -80,7 +80,7 @@ function init() {
 	var camera = new THREE.PerspectiveCamera(
 		45, 
 		window.innerWidth / window.innerHeight, // aspect ratio
-		1, // near clipping plane
+		1, 
 		1000 // far clipping plane
 	);
 	camera.position.z = 7;
