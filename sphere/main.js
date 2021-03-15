@@ -2,7 +2,6 @@ function init() {
 	var scene = new THREE.Scene();
 	var gui = new dat.GUI();
 
-	// initialize objects
 	var sphereMaterial = getMaterial('standard', 'rgb(255, 255, 255)');
 	var sphere = getSphere(sphereMaterial, 1, 24);
 
