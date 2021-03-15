@@ -88,7 +88,6 @@ function init() {
 	camera.position.y = 7;
 	camera.lookAt(new THREE.Vector3(0, 0, 0));
 
-	// renderer
 	var renderer = new THREE.WebGLRenderer();
 	renderer.setSize(window.innerWidth, window.innerHeight);
 	renderer.shadowMap.enabled = true;
