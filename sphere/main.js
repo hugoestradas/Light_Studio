@@ -81,7 +81,7 @@ function init() {
 		45, 
 		window.innerWidth / window.innerHeight, // aspect ratio
 		1, 
-		1000 // far clipping plane
+		1000 
 	);
 	camera.position.z = 7;
 	camera.position.x = -2;
