@@ -141,7 +141,6 @@ function getSpotLight(intensity, color) {
 	light.castShadow = true;
 	light.penumbra = 0.5;
 
-	//Set up shadow properties for the light
 	light.shadow.mapSize.width = 2048;  // default: 512
 	light.shadow.mapSize.height = 2048; // default: 512
 	light.shadow.bias = 0.001;
