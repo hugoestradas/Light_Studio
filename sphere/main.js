@@ -78,7 +78,7 @@ function init() {
 	scene.add(lightRight);
 
 	var camera = new THREE.PerspectiveCamera(
-		45, // field of view
+		45, 
 		window.innerWidth / window.innerHeight, // aspect ratio
 		1, // near clipping plane
 		1000 // far clipping plane
