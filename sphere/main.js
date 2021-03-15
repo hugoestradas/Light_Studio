@@ -53,7 +53,6 @@ function init() {
 		texture.repeat.set(15, 15);
 	});
 
-	// dat.gui
 	var folder1 = gui.addFolder('light_1');
 	folder1.add(lightLeft, 'intensity', 0, 10);
 	folder1.add(lightLeft.position, 'x', -5, 15);
@@ -73,13 +72,11 @@ function init() {
 	folder3.add(planeMaterial, 'metalness', 0, 1);
 	folder3.open();
 
-	// add objects to the scene
 	scene.add(sphere);
 	scene.add(plane);
 	scene.add(lightLeft);
 	scene.add(lightRight);
 
-	// camera
 	var camera = new THREE.PerspectiveCamera(
 		45, // field of view
 		window.innerWidth / window.innerHeight, // aspect ratio
