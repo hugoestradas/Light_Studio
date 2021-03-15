@@ -11,7 +11,6 @@ function init() {
 	var lightLeft = getSpotLight(1, 'rgb(255, 220, 180)');
 	var lightRight = getSpotLight(1, 'rgb(255, 220, 180)');
 
-	// manipulate objects
 	sphere.position.y = sphere.geometry.parameters.radius;
 	plane.rotation.x = Math.PI/2;
 
