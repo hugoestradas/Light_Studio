@@ -22,7 +22,6 @@ function init() {
 	lightRight.position.y = 2;
 	lightRight.position.z = -4;
 
-	// load the cube map
 	var path = '/assets/cubemap/';
 	var format = '.jpg';
 	var urls = [
